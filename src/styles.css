@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+body{
+    background-image: url('./images/bg-img.png');
+}
+
+.wraper{
+    text-align: center;
+}
+
+.search{
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 40px;
+    width: 538px;
+}
+
+.flag {
+    width: 500px;
+    height: 350px;
+}
+
+.form_country {
+    display: flex;
+    justify-content: center;
+}
+
+.countryList{
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 500px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.text{
+    font-weight: bold;
+}
